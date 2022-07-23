@@ -16,7 +16,7 @@ body {
 }
 
 .screen {
-    height: 18vh;
+    height: 22vh;
     width: 100vw;
 }
 
@@ -26,7 +26,7 @@ body {
     background-color: #CACBCE;
     width: 100vw;
     flex-wrap: wrap;
-    height: calc(100vh - 18vh);
+    height: calc(100vh - 22vh);
 }
 
 .orange {
@@ -70,7 +70,19 @@ body {
 }
 
 @media (max-width: 675px) {
-    .main{
+    .main {
         width: auto;
+    }
+
+    .screen {
+        height: 30vh;
+    }
+
+    .buttons {
+        height: calc(100vh - 30vh);
+    }
+
+    .btn {
+        font-size: 2.3em;
     }
 }
