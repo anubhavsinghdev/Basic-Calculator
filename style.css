@@ -68,3 +68,9 @@ body {
 .orange:hover {
     background-color: #1363DF;
 }
+
+@media (max-width: 675px) {
+    .main{
+        width: auto;
+    }
+}
