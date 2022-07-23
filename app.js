@@ -89,6 +89,7 @@ for (const sym of syms) {
                 if (screen.innerText.charAt(0) === '-') {
                     screen.innerText = screen.innerText.substring(1, screen.innerText.length);
                 }
+                str = str.substring(1, str.length);
             }
         } else {
             if (symbol === '+' || symbol === '-' || symbol === '*' || symbol === '/' || symbol === '.') {
